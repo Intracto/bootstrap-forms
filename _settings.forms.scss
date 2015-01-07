@@ -1,0 +1,61 @@
+///*------------------------------------*\
+//    #SETTINGS
+//\*------------------------------------*/
+
+$font-size-base:                    16px !default;
+$font-size-small:                   12px !default;
+$font-size-large:                   18px !default;
+
+$line-height-base:                  1.5 !default;
+$line-height-computed:              floor($font-size-base * $line-height-base) !default;
+$line-height-large:                 1.35 !default;
+$line-height-small:                 1.5 !default;
+
+$legend-color:                      #666 !default;
+$legend-border-color:               #CCC !default;
+
+$padding-base-vertical:             6px !default;
+$padding-base-horizontal:           12px !default;
+$padding-large-vertical:            10px !default;
+$padding-large-horizontal:          16px !default;
+
+$padding-small-vertical:            5px !default !default;
+$padding-small-horizontal:          10px !default !default;
+
+$input-color:                       #666 !default;
+$input-color-placeholder:           darken(#CCC, 20) !default;
+
+$input-bg:                          #FFF !default;
+$input-bg-disabled:                 lighten(#CCC, 5) !default;
+
+$input-border:                      #CCC !default;
+$input-border-radius:               4px !default;
+$input-border-focus:                darken(#CCC, 10) !default;
+
+$input-height-base:                 ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
+$input-height-large:                (floor($font-size-large * $line-height-large) + ($padding-large-vertical * 2) + 2) !default;
+$input-height-small:                (floor($font-size-small * $line-height-small) + ($padding-small-vertical * 2) + 2) !default;
+
+$border-radius-large:               6px !default;
+$border-radius-small:               3px !default;
+
+$state-success-text:                #468847 !default;
+$state-success-bg:                  #dff0d8 !default;
+$state-success-border:              darken(adjust-hue($state-success-bg, -10), 5%) !default;
+
+$state-info-text:                   #3a87ad !default;
+$state-info-bg:                     #d9edf7 !default;
+$state-info-border:                 darken(adjust-hue($state-info-bg, -10), 7%) !default;
+
+$state-warning-text:                #c09853 !default;
+$state-warning-bg:                  #fcf8e3 !default;
+$state-warning-border:              darken(adjust-hue($state-warning-bg, -10), 5%) !default;
+
+$state-danger-text:                 #b94a48 !default;
+$state-danger-bg:                   #f2dede !default;
+$state-danger-border:               darken(adjust-hue($state-danger-bg, -10), 5%) !default;
+
+$text-color:                        #666 !default;
+
+$screen-sm:                         768px !default;
+$screen-sm-min:                     $screen-sm !default;
