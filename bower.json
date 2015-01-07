@@ -1,0 +1,22 @@
+{
+  "name": "standalone-bootstrap-forms",
+  "version": "0.9.0",
+  "homepage": "https://github.com/whitelabel-company/bootstrap-forms",
+  "authors": [
+    "Sven Peeters <sven@gridsnit.be>"
+  ],
+  "description": "Stand-alone Bootstrap Forms",
+  "main": ["_settings.forms.scss", "_tools.forms.scss"],
+  "keywords": [
+    "bootstrap",
+    "forms"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
