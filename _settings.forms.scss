@@ -19,8 +19,8 @@ $padding-base-horizontal:           12px !default;
 $padding-large-vertical:            10px !default;
 $padding-large-horizontal:          16px !default;
 
-$padding-small-vertical:            5px !default !default;
-$padding-small-horizontal:          10px !default !default;
+$padding-small-vertical:            5px !default;
+$padding-small-horizontal:          10px !default;
 
 $input-color:                       #666 !default;
 $input-color-placeholder:           darken(#CCC, 20) !default;
@@ -30,6 +30,8 @@ $input-bg-disabled:                 lighten(#CCC, 5) !default;
 
 $input-border:                      #CCC !default;
 $input-border-radius:               4px !default;
+$input-border-radius-small:         3px !default;
+$input-border-radius-large:         6px !default;
 $input-border-focus:                darken(#CCC, 10) !default;
 
 $input-height-base:                 ($line-height-computed + ($padding-base-vertical * 2) + 2) !default;
@@ -38,6 +40,8 @@ $input-height-small:                (floor($font-size-small * $line-height-small
 
 $border-radius-large:               6px !default;
 $border-radius-small:               3px !default;
+
+$cursor-disabled:                   not-allowed !default;
 
 $state-success-text:                #468847 !default;
 $state-success-bg:                  #dff0d8 !default;
@@ -59,3 +63,5 @@ $text-color:                        #666 !default;
 
 $screen-sm:                         768px !default;
 $screen-sm-min:                     $screen-sm !default;
+
+$grid-gutter-width:                 20px !default;
